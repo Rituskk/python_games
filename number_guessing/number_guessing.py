@@ -17,12 +17,12 @@ def get_range():
         try:
             lower = int(input("Enter the lower bound of the range: "))
             upper = int(input("Enter the upper bound of the range: "))
-            if lower == upper:
-                print("The lower and upper bounds must be different.")
-            elif lower >= upper:
+            if lower >= upper:
                 print("The lower bound must be less than the upper bound.")
             elif lower < 0 or upper < 0:
                 print("The lower and upper bounds must be positive.")
+            elif upper - lower < 10:
+                print("The range must be at least 10.")
             else:
                 return int(lower), int(upper)
         except ValueError:
@@ -32,7 +32,7 @@ def number_guessing():
     lower, upper = get_range()
     number = random.randint(lower, upper)
     attempts = 0
-    if upper - lower <= 10:
+    if upper - lower == 10:
         maxAttempts = 5
     else:
         maxAttempts = 10
