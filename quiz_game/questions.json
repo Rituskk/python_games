@@ -1,0 +1,404 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the difference between a compiler and an interpreter?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A compiler translates the entire source code into machine code before execution.",
+          "correct": true
+        },
+        {
+          "id": 2,
+          "text": "An interpreter translates the entire source code into machine code before execution.",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "text": "An interpreter translates and executes code line by line.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Explain the concept of Object-Oriented Programming (OOP).",
+      "answers": [
+        {
+          "id": 4,
+          "text": "OOP is a programming paradigm based on procedural programming.",
+          "correct": false
+        },
+        {
+          "id": 5,
+          "text": "OOP is a programming paradigm based on the concept of objects.",
+          "correct": true
+        },
+        {
+          "id": 6,
+          "text": "OOP is a programming paradigm based on functional programming.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of a constructor in object-oriented programming?",
+      "answers": [
+        { "id": 7, "text": "To destroy objects.", "correct": false },
+        { "id": 8, "text": "To create objects.", "correct": true },
+        { "id": 9, "text": "To update objects.", "correct": false }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the difference between TCP and UDP?",
+      "answers": [
+        {
+          "id": 10,
+          "text": "TCP provides unreliable, connectionless communication.",
+          "correct": false
+        },
+        {
+          "id": 11,
+          "text": "TCP provides reliable, connection-oriented communication.",
+          "correct": true
+        },
+        {
+          "id": 12,
+          "text": "UDP provides reliable, connection-oriented communication.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Explain the concept of recursion in programming.",
+      "answers": [
+        {
+          "id": 13,
+          "text": "Recursion is a programming technique that uses loops.",
+          "correct": false
+        },
+        {
+          "id": 14,
+          "text": "Recursion is a programming technique that calls a function within itself.",
+          "correct": true
+        },
+        {
+          "id": 15,
+          "text": "Recursion is a programming technique that uses arrays.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What are the advantages of using version control systems?",
+      "answers": [
+        {
+          "id": 16,
+          "text": "Version control systems allow only one developer to work on a project.",
+          "correct": false
+        },
+        {
+          "id": 17,
+          "text": "Version control systems track changes and facilitate collaboration among developers.",
+          "correct": true
+        },
+        {
+          "id": 18,
+          "text": "Version control systems slow down the development process.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is a database index and why is it important?",
+      "answers": [
+        {
+          "id": 19,
+          "text": "A database index is used to encrypt sensitive data.",
+          "correct": false
+        },
+        {
+          "id": 20,
+          "text": "A database index is used to improve the speed of data retrieval operations.",
+          "correct": true
+        },
+        {
+          "id": 21,
+          "text": "A database index is used to delete data from a database.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Explain the concept of Big O notation.",
+      "answers": [
+        {
+          "id": 22,
+          "text": "Big O notation is used to describe the size of a computer's hard disk.",
+          "correct": false
+        },
+        {
+          "id": 23,
+          "text": "Big O notation is used to describe the efficiency of algorithms.",
+          "correct": true
+        },
+        {
+          "id": 24,
+          "text": "Big O notation is used to describe the number of pixels on a computer screen.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between a stack and a queue?",
+      "answers": [
+        {
+          "id": 25,
+          "text": "A stack follows the First In, First Out (FIFO) principle.",
+          "correct": false
+        },
+        {
+          "id": 26,
+          "text": "A stack follows the Last In, First Out (LIFO) principle.",
+          "correct": true
+        },
+        {
+          "id": 27,
+          "text": "A stack follows the Last In, Last Out (LILO) principle.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is a binary tree?",
+      "answers": [
+        {
+          "id": 28,
+          "text": "A binary tree is a data structure where each node has only one child.",
+          "correct": false
+        },
+        {
+          "id": 29,
+          "text": "A binary tree is a data structure where each node has at most two children.",
+          "correct": true
+        },
+        {
+          "id": 30,
+          "text": "A binary tree is a data structure where each node has exactly two children.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of the 'finally' block in exception handling?",
+      "answers": [
+        { "id": 31, "text": "To handle exceptions.", "correct": false },
+        {
+          "id": 32,
+          "text": "To define code that will be executed whether an exception is raised or not.",
+          "correct": true
+        },
+        { "id": 33, "text": "To catch exceptions.", "correct": false }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Explain the concept of polymorphism.",
+      "answers": [
+        {
+          "id": 34,
+          "text": "Polymorphism is the ability of a single interface to be used for a single type or implementation.",
+          "correct": false
+        },
+        {
+          "id": 35,
+          "text": "Polymorphism is the ability of multiple interfaces to be used for different types or implementations.",
+          "correct": false
+        },
+        {
+          "id": 36,
+          "text": "Polymorphism is the ability of a single interface to be used to denote different types or implementations.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is SQL injection and how can it be prevented?",
+      "answers": [
+        {
+          "id": 37,
+          "text": "SQL injection is a method for improving database performance.",
+          "correct": false
+        },
+        {
+          "id": 38,
+          "text": "SQL injection is a type of security vulnerability.",
+          "correct": true
+        },
+        {
+          "id": 39,
+          "text": "SQL injection is a type of encryption technique.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What are the differences between HTML and CSS?",
+      "answers": [
+        {
+          "id": 40,
+          "text": "HTML is used to style the appearance of web pages.",
+          "correct": false
+        },
+        {
+          "id": 41,
+          "text": "CSS is used to structure the content of web pages.",
+          "correct": false
+        },
+        {
+          "id": 42,
+          "text": "HTML is used to structure the content of web pages, while CSS is used to style the appearance of HTML elements.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the role of a DNS server?",
+      "answers": [
+        {
+          "id": 43,
+          "text": "A DNS server translates IP addresses into domain names.",
+          "correct": false
+        },
+        {
+          "id": 44,
+          "text": "A DNS server translates domain names into IP addresses.",
+          "correct": true
+        },
+        {
+          "id": 45,
+          "text": "A DNS server stores files and data for websites.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Explain the concept of MVC architecture in web development.",
+      "answers": [
+        {
+          "id": 46,
+          "text": "MVC architecture is used to define the layout of web pages.",
+          "correct": false
+        },
+        {
+          "id": 47,
+          "text": "MVC architecture is used to manage databases in web development.",
+          "correct": false
+        },
+        {
+          "id": 48,
+          "text": "MVC architecture separates the application's data (model), user interface (view), and control logic (controller) into distinct components.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What are the different types of sorting algorithms?",
+      "answers": [
+        {
+          "id": 49,
+          "text": "Binary search, bubble sort, and selection sort.",
+          "correct": false
+        },
+        {
+          "id": 50,
+          "text": "Merge sort, quick sort, and heap sort.",
+          "correct": true
+        },
+        {
+          "id": 51,
+          "text": "Linear search, insertion sort, and bubble sort.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of a primary key in a database table?",
+      "answers": [
+        {
+          "id": 52,
+          "text": "To ensure that each record in the table is uniquely identifiable.",
+          "correct": true
+        },
+        {
+          "id": 53,
+          "text": "To allow NULL values in the table.",
+          "correct": false
+        },
+        {
+          "id": 54,
+          "text": "To enforce data types in the table.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is the difference between HTTP and HTTPS?",
+      "answers": [
+        {
+          "id": 55,
+          "text": "HTTP is a secure version of HTTPS.",
+          "correct": false
+        },
+        {
+          "id": 56,
+          "text": "HTTP is a protocol used for transmitting data over the internet, while HTTPS is a secure version of HTTP that encrypts data transmitted between the client and the server.",
+          "correct": true
+        },
+        {
+          "id": 57,
+          "text": "HTTPS is a protocol used for transmitting data over the internet, while HTTP is a secure version of HTTPS.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Explain the concept of cloud computing.",
+      "answers": [
+        {
+          "id": 58,
+          "text": "Cloud computing is a method of storing data on physical servers.",
+          "correct": false
+        },
+        {
+          "id": 59,
+          "text": "Cloud computing is a method of accessing and managing computer resources over the internet.",
+          "correct": true
+        },
+        {
+          "id": 60,
+          "text": "Cloud computing is a method of securing data using encryption techniques.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
